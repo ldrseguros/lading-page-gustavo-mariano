@@ -4,6 +4,12 @@ import { Button } from "@/components/ui/button";
 const ContactSection = () => {
   const socialLinks = [
     {
+      name: "WhatsApp",
+      url: "https://wa.me/5562996920050",
+      icon: MessageSquare,
+      color: "bg-green-600",
+    },
+    {
       name: "Instagram",
       url: "https://instagram.com/gustavo_mariano",
       icon: Instagram,
@@ -23,7 +29,7 @@ const ContactSection = () => {
     },
     {
       name: "Aureum Soluções",
-      url: "https://aureum.com.br",
+      url: "https://aureumseguros.com.br",
       icon: Globe,
       color: "bg-amber-700",
     },
@@ -60,10 +66,6 @@ const ContactSection = () => {
                 Agende uma conversa para discutirmos as melhores estratégias de
                 proteção para seu negócio ou carreira.
               </p>
-              <Button className="w-full bg-navy hover:bg-navy/90 text-white">
-                <MessageSquare className="mr-2" size={18} />
-                Agendar WhatsApp
-              </Button>
             </div>
 
             <div className="grid grid-cols-2 gap-4">
