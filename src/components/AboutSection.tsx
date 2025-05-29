@@ -41,7 +41,9 @@ const AboutSection = () => {
               {highlights.map((item, index) => (
                 <div key={index} className="flex items-start">
                   <Check className="text-navy mt-1 flex-shrink-0" size={18} />
-                  <p className="ml-2 md:ml-3 text-charcoal text-sm md:text-base lg:text-lg leading-relaxed">{item}</p>
+                  <p className="ml-2 md:ml-3 text-charcoal text-sm md:text-base lg:text-lg leading-relaxed">
+                    {item}
+                  </p>
                 </div>
               ))}
             </div>
