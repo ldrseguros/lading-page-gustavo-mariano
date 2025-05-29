@@ -15,6 +15,18 @@ const TestimonialsSection = () => {
       author: "Dra. Kelly de Castro",
       position: "Advogada",
     },
+    {
+      quote:
+        "O Gustavo foi o único corretor que, de fato, conseguiu me explicar com profundidade e clareza sobre responsabilidade civil, algo essencial, mas que raramente é tratado com a seriedade necessária. Seu atendimento vai muito além do técnico: ele escuta, orienta e entrega com excelência. É raro encontrar um profissional que una conhecimento sólido, ética e um senso genuíno de cuidado. Gustavo é esse profissional. Em um mercado tão raso, ele é profundidade.",
+      author: "Dra. Renata Paranaguá",
+      position: "Advogada",
+    },
+    {
+      quote:
+        "Escolher a LDR Seguros como corretora, por meio do atendimento do Gustavo Mariano, foi a escolha certa para proteger o patrimônio da minha família. Nesses 4 anos como cliente, o atendimento foi de excelência e sobram motivos para continuarmos como clientes por muitos outros anos. Indico sem medo!",
+      author: "Dr. Renan Esteves",
+      position: "Advogado",
+    },
   ];
 
   const [activeIndex, setActiveIndex] = useState(0);
