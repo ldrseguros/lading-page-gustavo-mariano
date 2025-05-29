@@ -6,11 +6,11 @@ interface HeroProps {
 
 const Hero = ({ scrollToSection }: HeroProps) => {
   return (
-    <section className="min-h-screen relative flex flex-col justify-center items-center text-center px-4 py-20 md:py-0">
+    <section className="min-h-screen relative flex flex-col justify-center items-center text-center px-4 py-16 md:py-20">
       <div className="absolute inset-0 bg-gradient-to-b from-navy to-charcoal opacity-90 z-0"></div>
 
       <div className="relative z-10 max-w-4xl mx-auto flex flex-col items-center">
-        <div className="w-48 h-48 md:w-64 md:h-64 rounded-full overflow-hidden mt-16 mb-8 border-4 border-white/20 shadow-2xl">
+        <div className="w-40 h-40 sm:w-48 sm:h-48 md:w-64 md:h-64 rounded-full overflow-hidden mt-8 md:mt-16 mb-6 md:mb-8 border-4 border-white/20 shadow-2xl">
           <img
             src="/lovable-uploads/2f31e982-c7bd-4347-b604-00a07f24d8a6.png"
             alt="Gustavo Mariano"
@@ -18,22 +18,22 @@ const Hero = ({ scrollToSection }: HeroProps) => {
           />
         </div>
 
-        <h1 className="text-4xl md:text-6xl font-bold font-serif text-white mb-6 animate-fade-in">
+        <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold font-serif text-white mb-4 md:mb-6 animate-fade-in">
           Gustavo Mariano
         </h1>
 
-        <p className="text-xl md:text-2xl text-white/80 mb-8 max-w-2xl animate-fade-in animate-delay-200">
+        <p className="text-lg sm:text-xl md:text-2xl text-white/80 mb-6 md:mb-8 max-w-2xl px-2 animate-fade-in animate-delay-200">
           "Sou um estrategista apaixonado por proteger histórias de sucesso."
         </p>
 
-        <div className="flex flex-wrap justify-center gap-4 mb-16 animate-fade-in animate-delay-300">
-          <span className="bg-white/10 text-white px-4 py-2 rounded-full backdrop-blur-sm">
+        <div className="flex flex-wrap justify-center gap-2 sm:gap-3 md:gap-4 mb-12 md:mb-16 animate-fade-in animate-delay-300 px-2">
+          <span className="bg-white/10 text-white px-3 py-2 text-sm sm:text-base rounded-full backdrop-blur-sm">
             Especialista em Seguros
           </span>
-          <span className="bg-white/10 text-white px-4 py-2 rounded-full backdrop-blur-sm">
+          <span className="bg-white/10 text-white px-3 py-2 text-sm sm:text-base rounded-full backdrop-blur-sm">
             Mentor em Negócios
           </span>
-          <span className="bg-white/10 text-white px-4 py-2 rounded-full backdrop-blur-sm">
+          <span className="bg-white/10 text-white px-3 py-2 text-sm sm:text-base rounded-full backdrop-blur-sm">
             Estrategista Corporativo
           </span>
         </div>

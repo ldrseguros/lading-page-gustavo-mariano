@@ -36,20 +36,20 @@ const ContactSection = () => {
   ];
 
   return (
-    <section id="contact" className="py-20 px-4 bg-softgray">
+    <section id="contact" className="py-12 md:py-20 px-4 bg-softgray">
       <div className="max-w-6xl mx-auto section-fade">
-        <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold font-serif text-navy mb-3">
+        <div className="text-center mb-8 md:mb-12">
+          <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold font-serif text-navy mb-3">
             Entre em Contato
           </h2>
-          <p className="text-silver max-w-2xl mx-auto">
+          <p className="text-silver max-w-2xl mx-auto text-sm md:text-base">
             Estou à disposição para discutir soluções personalizadas para sua
             empresa, oportunidades de parceria ou mentorias no setor de seguros.
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-10 items-center">
-          <div>
+        <div className="grid md:grid-cols-2 gap-8 md:gap-10 items-center">
+          <div className="order-2 md:order-1">
             <img
               src="/lovable-uploads/27bea5b6-7dc7-4458-a5bd-3262d438a7cc.png"
               alt="Gustavo Mariano sorrindo"
@@ -57,28 +57,28 @@ const ContactSection = () => {
             />
           </div>
 
-          <div>
-            <div className="bg-white rounded-lg p-6 shadow-md mb-6">
-              <h3 className="text-xl font-semibold text-navy mb-4">
+          <div className="order-1 md:order-2">
+            <div className="bg-white rounded-lg p-4 md:p-6 shadow-md mb-4 md:mb-6">
+              <h3 className="text-lg md:text-xl font-semibold text-navy mb-3 md:mb-4">
                 Solicite uma consultoria personalizada
               </h3>
-              <p className="text-charcoal mb-6">
+              <p className="text-charcoal mb-4 md:mb-6 text-sm md:text-base leading-relaxed">
                 Agende uma conversa para discutirmos as melhores estratégias de
                 proteção para seu negócio ou carreira.
               </p>
             </div>
 
-            <div className="grid grid-cols-2 gap-4">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 md:gap-4">
               {socialLinks.map((link) => (
                 <a
                   key={link.name}
                   href={link.url}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className={`${link.color} text-white py-3 px-4 rounded-lg flex items-center justify-center hover:opacity-90 transition-opacity`}
+                  className={`${link.color} text-white py-3 px-3 md:px-4 rounded-lg flex items-center justify-center hover:opacity-90 transition-opacity text-sm md:text-base`}
                 >
-                  <link.icon className="mr-2" size={18} />
-                  <span>{link.name}</span>
+                  <link.icon className="mr-2 flex-shrink-0" size={16} />
+                  <span className="truncate">{link.name}</span>
                 </a>
               ))}
             </div>
