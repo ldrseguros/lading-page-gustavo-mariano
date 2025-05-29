@@ -5,6 +5,14 @@ const AboutSection = () => {
     "Mentor e Especialista em Expansão de Negócios",
     "Líder em soluções corporativas para indústrias e usinas",
     "Formador de equipes de alta performance em vendas",
+    "CEO da LDR Seguros",
+    "Sócio da Aureum Soluções em Saúde",
+    "21 anos de experiência no setor de seguros",
+    "Referência em soluções corporativas em seguros de frotas, transporte, cargas, empresarial e responsabilidade civil",
+    "Executivo com visão estratégica em crescimento empresarial",
+    "Entusiasta de tecnologia e inteligência artificial aplicada à gestão e excelência no atendimento ao cliente",
+    "Inspirado por valores cristãos e ética profissional",
+    "Já atuou como palestrante em eventos do setor de seguros e negócios",
   ];
 
   return (
@@ -23,7 +31,7 @@ const AboutSection = () => {
               <img
                 src="/lovable-uploads/5ed7bdd1-9bef-483f-b1b1-2e63ea628338.png"
                 alt="Gustavo Mariano"
-                className="rounded-lg w-80 h-80 object-cover object-[40%_30%] relative z-10"
+                className="rounded-lg max-w-96 h-full object-cover object-[40%_30%] relative z-10"
               />
             </div>
           </div>
