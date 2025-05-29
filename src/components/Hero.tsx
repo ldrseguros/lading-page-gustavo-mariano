@@ -28,13 +28,13 @@ const Hero = ({ scrollToSection }: HeroProps) => {
 
         <div className="flex flex-wrap justify-center gap-4 mb-16 animate-fade-in animate-delay-300">
           <span className="bg-white/10 text-white px-4 py-2 rounded-full backdrop-blur-sm">
-            CEO da LDR Seguros
+            Especialista em Seguros
           </span>
           <span className="bg-white/10 text-white px-4 py-2 rounded-full backdrop-blur-sm">
-            Sócio da Aureum Soluções em Saúde
+            Mentor em Negócios
           </span>
           <span className="bg-white/10 text-white px-4 py-2 rounded-full backdrop-blur-sm">
-            21 anos no setor de seguros
+            Estrategista Corporativo
           </span>
         </div>
 
