@@ -2,9 +2,6 @@ import { Award, Check } from "lucide-react";
 
 const AboutSection = () => {
   const highlights = [
-    "Mentor e Especialista em Expansão de Negócios",
-    "Líder em soluções corporativas para indústrias e usinas",
-    "Formador de equipes de alta performance em vendas",
     "CEO da LDR Seguros",
     "Sócio da Aureum Soluções em Saúde",
     "21 anos de experiência no setor de seguros",
