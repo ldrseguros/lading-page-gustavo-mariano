@@ -27,6 +27,18 @@ const TestimonialsSection = () => {
       author: "Dr. Renan Esteves",
       position: "Advogado",
     },
+    {
+      quote:
+        "A LDR não vende somente seguro, eles fazem  uma consultoria especializada e personalizada sobre qual apólice é melhor para minha necessidade. Eu pagava a quase 10 anos um seguro patrimonial para minha empresa e com uma consultoria da LDR eu descobri q o seguro q eu estava pagando não ia me cobrir do q eu precisava, ou seja, eu estava pagando a anos um seguro q se eu precisasse eu não teria a cobertura.",
+      author: "Raphaela Castro",
+      position: "Empresária",
+    },
+    {
+      quote:
+        "Contratar os seguros de carro e residencial com a LDR Corretora de Seguros foi uma experiência totalmente diferente de tudo o que já vivi nesse segmento. Sempre considerei esse processo burocrático e confuso, mas desde o primeiro contato fui surpreendida pela atenção, empatia e profissionalismo da equipe. Ouviram minhas necessidades, explicaram cada detalhe com clareza e me orientaram na escolha das melhores opções. O que mais me marcou foi o cuidado em cada etapa e a verdadeira sensação de segurança que a LDR transmite. Eles não vendem apenas seguros — entregam tranquilidade e confiança. Hoje, tenho a certeza de contar com uma parceira pronta para proteger o que tenho de mais valioso. Recomendo de olhos fechados.",
+      author: "Ana Carvalho",
+      position: "Empresária",
+    },
   ];
 
   const [activeIndex, setActiveIndex] = useState(0);
@@ -96,6 +108,24 @@ const TestimonialsSection = () => {
               />
             ))}
           </div>
+        </div>
+
+        {/* CTA estratégico após depoimentos - aproveitando credibilidade social */}
+        <div className="text-center mt-12">
+          <h3 className="text-2xl font-bold text-white mb-4">
+            Junte-se aos nossos clientes satisfeitos
+          </h3>
+          <p className="text-white/80 mb-6 max-w-md mx-auto">
+            Receba o mesmo atendimento de excelência que nossos clientes elogiam
+          </p>
+          <a
+            href="https://wa.me/5562996920050?text=Olá,%20vi%20os%20depoimentos%20de%20seus%20clientes%20e%20gostaria%20de%20conhecer%20seus%20serviços"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white font-semibold py-4 px-8 rounded-lg text-lg shadow-2xl transition-all duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-105"
+          >
+            ⭐ Quero o mesmo resultado para minha empresa
+          </a>
         </div>
       </div>
     </section>

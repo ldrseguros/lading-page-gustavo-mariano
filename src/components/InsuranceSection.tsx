@@ -73,14 +73,29 @@ const InsuranceSection = () => {
                 Parceria com as melhores seguradoras do mercado
               </li>
             </ul>
-            <a
-              href="https://ldr-seguros.vercel.app/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-block bg-navy hover:bg-navy/90 text-white font-medium py-3 px-6 rounded-md transition duration-300 ease-in-out transform hover:-translate-y-1"
-            >
-              Faça sua cotação online
-            </a>
+
+            <div className="flex flex-col sm:flex-row gap-4">
+              <a
+                href="https://ldr-seguros.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex-1 text-center bg-gradient-to-r from-navy to-blue-800 hover:from-blue-800 hover:to-navy text-white font-semibold py-3 px-6 rounded-lg transition-all duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-105 shadow-lg"
+              >
+                🛡️ Descubra sua proteção ideal agora
+              </a>
+              <a
+                href="https://wa.me/5562996920050?text=Olá,%20gostaria%20de%20uma%20consultoria%20personalizada%20sobre%20seguros%20para%20minha%20empresa"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex-1 text-center bg-green-600 hover:bg-green-700 text-white font-semibold py-3 px-6 rounded-lg transition-all duration-300 ease-in-out transform hover:-translate-y-1"
+              >
+                💬 Falar com especialista
+              </a>
+            </div>
+
+            <p className="text-center text-gray-600 text-sm mt-3">
+              💡 Consultoria gratuita • Sem compromisso • Atendimento em até 2h
+            </p>
           </div>
         </div>
       </div>

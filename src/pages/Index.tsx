@@ -9,6 +9,7 @@ import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 import InsuranceSection from "@/components/InsuranceSection";
 import StrategicAnalysisSection from "@/components/StrategicAnalysisSection";
+import FloatingCTA from "@/components/FloatingCTA";
 
 const Index = () => {
   const aboutRef = useRef<HTMLDivElement>(null);
@@ -102,6 +103,9 @@ const Index = () => {
       </div>
 
       <Footer />
+
+      {/* CTA flutuante sempre visível */}
+      <FloatingCTA />
     </div>
   );
 };

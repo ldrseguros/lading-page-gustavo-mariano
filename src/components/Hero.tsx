@@ -26,7 +26,7 @@ const Hero = ({ scrollToSection }: HeroProps) => {
           "Sou um estrategista apaixonado por proteger histórias de sucesso."
         </p>
 
-        <div className="flex flex-wrap justify-center gap-2 sm:gap-3 md:gap-4 mb-12 md:mb-16 animate-fade-in animate-delay-300 px-2">
+        <div className="flex flex-wrap justify-center gap-2 sm:gap-3 md:gap-4 mb-8 md:mb-10 animate-fade-in animate-delay-300 px-2">
           <span className="bg-white/10 text-white px-3 py-2 text-sm sm:text-base rounded-full backdrop-blur-sm">
             Especialista em Seguros
           </span>
@@ -36,6 +36,21 @@ const Hero = ({ scrollToSection }: HeroProps) => {
           <span className="bg-white/10 text-white px-3 py-2 text-sm sm:text-base rounded-full backdrop-blur-sm">
             Estrategista Corporativo
           </span>
+        </div>
+
+        <div className="mb-8 md:mb-12 animate-fade-in animate-delay-400">
+          <a
+            href="https://wa.me/5562996920050?text=Olá,%20gostaria%20de%20receber%20uma%20análise%20estratégica%20gratuita%20para%20minha%20empresa"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white font-semibold py-4 px-8 rounded-lg text-lg shadow-2xl transition-all duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-105 hover:shadow-3xl border border-green-400/20"
+          >
+            🎯 Quero minha análise estratégica gratuita
+          </a>
+          <p className="text-white/60 text-sm mt-3 max-w-md mx-auto">
+            Descubra oportunidades ocultas na sua apólice em uma consultoria
+            personalizada
+          </p>
         </div>
 
         <button

@@ -85,14 +85,26 @@ const StrategicAnalysisSection = () => {
                 Cobertura alinhada com suas necessidades reais
               </li>
             </ul>
-            <a
-              href="https://analise-estrategia-gustavo-mariano.vercel.app/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-block bg-white text-navy hover:bg-white/90 font-medium py-3 px-6 rounded-md transition duration-300 ease-in-out transform hover:-translate-y-1"
-            >
-              Ver apresentação completa
-            </a>
+
+            {/* CTAs melhorados com texto mais persuasivo */}
+            <div className="space-y-4">
+              <a
+                href="https://wa.me/5562996920050?text=Olá,%20vi%20a%20apresentação%20sobre%20análise%20estratégica%20e%20gostaria%20de%20receber%20insights%20personalizados%20para%20minha%20empresa"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block w-full text-center bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white font-semibold py-3 px-6 rounded-lg transition-all duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-105 shadow-lg"
+              >
+                💬 Receba insights estratégicos personalizados
+              </a>
+              <a
+                href="https://analise-estrategia-gustavo-mariano.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block w-full text-center bg-white/10 hover:bg-white/20 text-white border border-white/30 font-medium py-3 px-6 rounded-lg transition-all duration-300 ease-in-out backdrop-blur-sm"
+              >
+                📊 Ver apresentação completa
+              </a>
+            </div>
           </div>
         </div>
       </div>

@@ -8,30 +8,35 @@ const ContactSection = () => {
       url: "https://wa.me/5562996920050",
       icon: MessageSquare,
       color: "bg-green-600",
+      cta: "Conversas rápidas",
     },
     {
       name: "Instagram",
       url: "https://instagram.com/gustavo_mariano",
       icon: Instagram,
       color: "bg-gradient-to-r from-purple-500 to-pink-500",
+      cta: "Conteúdo exclusivo",
     },
     {
       name: "LinkedIn",
       url: "https://www.linkedin.com/in/gustavoamariano",
       icon: Linkedin,
       color: "bg-blue-600",
+      cta: "Networking profissional",
     },
     {
       name: "LDR Seguros",
       url: "https://ldrseguros.com.br",
       icon: Globe,
       color: "bg-navy",
+      cta: "Site institucional",
     },
     {
       name: "Aureum Soluções",
       url: "https://aureumseguros.com.br",
       icon: Globe,
       color: "bg-amber-700",
+      cta: "Soluções corporativas",
     },
   ];
 
@@ -48,6 +53,26 @@ const ContactSection = () => {
           </p>
         </div>
 
+        <div className="text-center mb-12">
+          <div className="bg-gradient-to-r from-navy to-blue-800 rounded-xl p-8 text-white shadow-xl">
+            <h3 className="text-2xl font-bold mb-4">
+              Pronto para proteger seu patrimônio?
+            </h3>
+            <p className="text-white/90 mb-6 max-w-md mx-auto">
+              Agende uma consultoria gratuita e descubra como otimizar sua
+              estratégia de proteção
+            </p>
+            <a
+              href="https://wa.me/5562996920050?text=Olá,%20gostaria%20de%20agendar%20uma%20consultoria%20gratuita%20sobre%20estratégias%20de%20proteção"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block bg-white text-navy hover:bg-gray-100 font-semibold py-3 px-8 rounded-lg transition-all duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-105 shadow-lg"
+            >
+              📅 Agendar consultoria gratuita
+            </a>
+          </div>
+        </div>
+
         <div className="grid md:grid-cols-2 gap-8 md:gap-10 items-center">
           <div className="order-2 md:order-1">
             <img
@@ -60,11 +85,12 @@ const ContactSection = () => {
           <div className="order-1 md:order-2">
             <div className="bg-white rounded-lg p-4 md:p-6 shadow-md mb-4 md:mb-6">
               <h3 className="text-lg md:text-xl font-semibold text-navy mb-3 md:mb-4">
-                Solicite uma consultoria personalizada
+                Vamos conversar sobre seu futuro
               </h3>
               <p className="text-charcoal mb-4 md:mb-6 text-sm md:text-base leading-relaxed">
-                Agende uma conversa para discutirmos as melhores estratégias de
-                proteção para seu negócio ou carreira.
+                Escolha o canal de sua preferência para iniciarmos uma conversa
+                sobre as melhores estratégias de proteção para seu negócio ou
+                carreira.
               </p>
             </div>
 
@@ -75,10 +101,14 @@ const ContactSection = () => {
                   href={link.url}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className={`${link.color} text-white py-3 px-3 md:px-4 rounded-lg flex items-center justify-center hover:opacity-90 transition-opacity text-sm md:text-base`}
+                  className={`${link.color} text-white py-3 px-3 md:px-4 rounded-lg flex flex-col items-center justify-center hover:opacity-90 transition-all duration-300 transform hover:-translate-y-1 text-sm md:text-base group`}
                 >
-                  <link.icon className="mr-2 flex-shrink-0" size={16} />
-                  <span className="truncate">{link.name}</span>
+                  <link.icon
+                    className="mb-2 group-hover:scale-110 transition-transform"
+                    size={20}
+                  />
+                  <span className="font-semibold">{link.name}</span>
+                  <span className="text-xs opacity-80 mt-1">{link.cta}</span>
                 </a>
               ))}
             </div>
