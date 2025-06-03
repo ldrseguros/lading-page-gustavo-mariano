@@ -4,13 +4,6 @@ import { Button } from "@/components/ui/button";
 const ContactSection = () => {
   const socialLinks = [
     {
-      name: "WhatsApp",
-      url: "https://wa.me/5562996920050",
-      icon: MessageSquare,
-      color: "bg-green-600",
-      cta: "Conversas rápidas",
-    },
-    {
       name: "Instagram",
       url: "https://instagram.com/gustavo_mariano",
       icon: Instagram,

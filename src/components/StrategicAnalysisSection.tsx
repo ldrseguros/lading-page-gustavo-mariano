@@ -12,10 +12,9 @@ const StrategicAnalysisSection = () => {
 
         <div className="grid md:grid-cols-2 gap-8 items-center">
           <div className="aspect-video bg-black/30 rounded-lg overflow-hidden shadow-xl">
-            {/* Substitua pelo vídeo real ou use um placeholder */}
             <iframe
-              src="https://www.youtube.com/embed/yKwHa9TT9mU"
-              title="Análise Estratégica"
+              src="https://www.youtube.com/embed/1YXr8TLwano"
+              title="Análise Estratégica - Gustavo Mariano"
               className="w-full h-full"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -89,7 +88,7 @@ const StrategicAnalysisSection = () => {
             {/* CTAs melhorados com texto mais persuasivo */}
             <div className="space-y-4">
               <a
-                href="https://wa.me/5562996920050?text=Olá,%20vi%20a%20apresentação%20sobre%20análise%20estratégica%20e%20gostaria%20de%20receber%20insights%20personalizados%20para%20minha%20empresa"
+                href="https://wa.me/5562996920050?text=Olá,%20vi%20o%20vídeo%20sobre%20análise%20estratégica%20e%20gostaria%20de%20receber%20insights%20personalizados%20para%20minha%20empresa"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block w-full text-center bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white font-semibold py-3 px-6 rounded-lg transition-all duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-105 shadow-lg"
@@ -97,12 +96,12 @@ const StrategicAnalysisSection = () => {
                 💬 Receba insights estratégicos personalizados
               </a>
               <a
-                href="https://analise-estrategia-gustavo-mariano.vercel.app/"
+                href="https://youtu.be/1YXr8TLwano?si=-RmoeVWnv0dLpuFE"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block w-full text-center bg-white/10 hover:bg-white/20 text-white border border-white/30 font-medium py-3 px-6 rounded-lg transition-all duration-300 ease-in-out backdrop-blur-sm"
               >
-                📊 Ver apresentação completa
+                📺 Assistir vídeo completo no YouTube
               </a>
             </div>
           </div>
